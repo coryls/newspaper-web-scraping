@@ -4,18 +4,23 @@ import time
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 import logging
-import random
+
 
 logging.basicConfig(level=logging.DEBUG)
 
-MAX_RETRIES = 10
+
+MAX_RETRIES = 3
 TIMEOUT_PERIOD = 180
+
+
+
+
 
 # Create a session
 session = requests.Session()
 
 # Define retry behavior
-retries = Retry(total=MAX_RETRIES,  # Total number of retries
+retries = Retry(total=10,  # Total number of retries
                 backoff_factor=1,
                 # Time factor to increase between attempts. The sleep time will be: {backoff factor} * (2 ** ({number of total retries} - 1))
                 status_forcelist=[429, 500, 502, 503, 504],  # Status codes to trigger a retry
@@ -84,6 +89,8 @@ state_names_dict = {'ak': 'Alaska',
                     'wv': 'West Virginia',
                     'wy': 'Wyoming'}
 
+
+
 # headers for http
 headers = {
     'authority': 'www.newspapers.com',
@@ -103,77 +110,159 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
 }
 
-def exponential_backoff(retries):
-    return min(60, (2 ** retries) + random.uniform(0, 1))
-
-def get_data_with_backoff(url, params, max_retries=MAX_RETRIES):
-    retries = 0
-    while retries < max_retries:
-        response = session.get(url, headers=headers, params=params)
-        if response.status_code == 200:
-            return response.json()
-        elif response.status_code == 429:  # Too Many Requests
-            wait_time = exponential_backoff(retries)
-            logging.debug(f'Status code 429: waiting {wait_time} seconds')
-            time.sleep(wait_time)
-            retries += 1
-        else:
-            logging.debug(response.status_code)
-            retries += 1
-            time.sleep(TIMEOUT_PERIOD)
-    raise Exception("Max retries exceeded")
 
 def get_counties(start_date, end_date, keyword, state):
-    url = 'https://www.newspapers.com/api/search/query'
-    params = {
-        'product': 1,
-        'entity-types': 'page,',
-        'start': '*',
-        'count': 100,
-        'region': f'us-{state}',
-        'keyword': keyword,
-        'date-start': start_date,
-        'date-end': end_date,
-        'facet-year': 1000,
-        'facet-country': 200,
-        'facet-region': 300,
-        'facet-county': 260,
-        'facet-city': 150,
-        'facet-entity': 5,
-        'facet-publication': 5,
-        'include-publication-metadata': 'true'
-    }
-    return get_data_with_backoff(url, params), url, params
 
-def get_city(url, params, county):
-    params = {
-        **params,
-        'county': county
-    }
-    return get_data_with_backoff(url, params).get('facets', {}).get('city', [])
+    """
+    Fetch the county data based on the provided parameters.
+
+    Args:
+    - start_date (int): Start date for the search.
+    - end_date (int): End date for the search.
+    - keyword (str): Keyword for the search.
+    - state (str): State code for the search.
+
+    Returns:
+    - JSON response and the URL used for the request or None if unsuccessful.
+    """
+
+
+    #url = f'https://www.newspapers.com/api/search/query?product=1&entity-types=page,marriage,obituary,enslavement&start=*&count=100&region=us-{state}&keyword={keyword}&date-start={start_date}&date-end={end_date}&facet-year=1000&facet-country=200&facet-region=300&facet-county=260&facet-city=150&facet-entity=5&facet-publication=5&include-publication-metadata=true'
+    url = f'https://www.newspapers.com/api/search/query?product=1&entity-types=page,&start=*&count=100&region=us-{state}&keyword={keyword}&date-start={start_date}&date-end={end_date}&facet-year=1000&facet-country=200&facet-region=300&facet-county=260&facet-city=150&facet-entity=5&facet-publication=5&include-publication-metadata=true'
+
+
+    COUNTER = 0
+    while COUNTER != MAX_RETRIES:
+
+        time.sleep(1)
+        response = session.get(url, headers=headers)
+
+
+        if response.status_code == 200:
+
+            r = response.json()
+            return r, url
+        elif response.status_code == 429:
+
+            logging.debug(f'status code is 429 {TIMEOUT_PERIOD/60} minute rest period')
+            COUNTER += 1
+            time.sleep(TIMEOUT_PERIOD)
+
+        else:
+            logging.debug(response.status_code)
+            COUNTER += 1
+            time.sleep(TIMEOUT_PERIOD)
+
+    return None
+
+
+
+
+
+
+def get_city(url, county):
+    """
+    Fetch city data for a specific county.
+
+    Args:
+    - url (str): Base URL for the request.
+    - county (str): County name.
+
+    Returns:
+    - List of cities or None if unsuccessful.
+    """
+
+    url += f'&county={county}'
+
+    COUNTER = 0
+
+    while COUNTER != MAX_RETRIES:
+
+        time.sleep(1)
+        response = session.get(url, headers=headers)
+
+
+        if response.status_code == 200:
+
+            r = response.json()
+
+            cities = r['facets']['city']
+
+            return (cities)
+
+        elif response.status_code == 429:
+
+            logging.debug(f'status code is 429 {TIMEOUT_PERIOD/60} minute rest period')
+
+            COUNTER += 1
+            time.sleep(TIMEOUT_PERIOD)
+
+        else:
+            logging.debug(response.status_code)
+            COUNTER += 1
+            time.sleep(TIMEOUT_PERIOD)
+    return None
+
+
+
+
+
+
+
+
+
 
 def main(start_year, end_year, keyword):
+
+    """
+    Main function to retrieve county and city data for a range of years and a keyword.
+    The results are saved to an Excel file.
+
+    Args:
+    - start_year (int): Starting year.
+    - end_year (int): Ending year.
+    - keyword (str): Keyword for the search.
+    """
+
     whole_df = pd.DataFrame()
-    for count, state in enumerate(state_codes):
-        data, url, params = get_counties(start_year, end_year, keyword, state)
-        if data.get('recordCount', 0) > 0:
+
+    for count,state in enumerate(state_codes):
+
+
+
+        data, url = get_counties(start_year, end_year, keyword, state)
+
+
+
+
+
+        if data['recordCount'] > 0:          #if a state has 0 data for all its counties skip to the next state
             county_dict = data['facets']['county']
-            counties = [item['value'] for item in county_dict]
+
+            counties = [item['value'] for item in county_dict]  # creats a list of all the counties that contain data for the state
             df = pd.DataFrame(columns=['state', 'county', 'value', 'count'])
             for county in counties:
-                city_data = get_city(url, params, county)
+                city_data = get_city(url, county)  #get data for each city inside county
+
                 df_data = pd.DataFrame(city_data)
                 df_data['county'] = county
                 df = pd.concat([df, df_data], ignore_index=True)
             df['state'] = state_names_dict[state]
             whole_df = pd.concat([whole_df, df], ignore_index=True)
+
         logging.info(f'{count}/{len(state_codes)-1} completed')
-    whole_df = whole_df.rename(columns={'value': 'city'})
+
+    whole_df = whole_df.rename(columns={'value':'city'})
+    #whole_df.to_excel(f'{keyword}_{start_year}_to_{end_year}.xlsx')
     whole_df.to_excel(f'result_{start_year}_to_{end_year}.xlsx')
-    logging.info('Data successfully saved to Excel file')
+
+    logging.info('data successfully saved to excel file')
 
 if __name__ == "__main__":
-    start_date = int(input('Please select a start date (year): '))
-    end_date = int(input('Please select an end date (year): '))
-    keyword = str(input('Please provide a keyword: '))
+
+    start_date = int(input('Please select a start date(year) '))
+    end_date = int(input('Please select an end date (year) '))
+    keyword = str(input('Please provide a key word '))
+
+
     main(start_date, end_date, keyword)
