@@ -143,10 +143,11 @@ def get_counties(start_date, end_date, keyword, state):
         'facet-publication': 5,
         'include-publication-metadata': 'true'
     }
-    return get_data_with_backoff(url, params), url
+    return get_data_with_backoff(url, params), url, params
 
-def get_city(url, county):
+def get_city(url, params, county):
     params = {
+        **params,
         'county': county
     }
     return get_data_with_backoff(url, params).get('facets', {}).get('city', [])
@@ -154,13 +155,13 @@ def get_city(url, county):
 def main(start_year, end_year, keyword):
     whole_df = pd.DataFrame()
     for count, state in enumerate(state_codes):
-        data, url = get_counties(start_year, end_year, keyword, state)
+        data, url, params = get_counties(start_year, end_year, keyword, state)
         if data.get('recordCount', 0) > 0:
             county_dict = data['facets']['county']
             counties = [item['value'] for item in county_dict]
             df = pd.DataFrame(columns=['state', 'county', 'value', 'count'])
             for county in counties:
-                city_data = get_city(url, county)
+                city_data = get_city(url, params, county)
                 df_data = pd.DataFrame(city_data)
                 df_data['county'] = county
                 df = pd.concat([df, df_data], ignore_index=True)
