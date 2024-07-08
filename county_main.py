@@ -111,7 +111,7 @@ def get_data_with_backoff(url, params, max_retries=MAX_RETRIES):
         response = session.get(url, headers=headers, params=params)
         if response.status_code == 200:
             success_counts += 1
-            time.sleep(0.5)
+            time.sleep(1)
             return response.json()
         elif response.status_code == 429:  # Too Many Requests
             success_counts = 0
