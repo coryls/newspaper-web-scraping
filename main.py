@@ -15,7 +15,6 @@ session = requests.Session()
 
 retries = Retry(total=MAX_RETRIES,  # Total number of retries
                 backoff_factor=1,
-                # Time factor to increase between attempts. The sleep time will be: {backoff factor} * (2 ** ({number of total retries} - 1))
                 status_forcelist=[429, 500, 502, 503, 504],  # Status codes to trigger a retry
                 allowed_methods=frozenset(['GET', 'POST', 'PUT', 'DELETE']),  # HTTP methods to be retried
                 raise_on_redirect=True,  # Retry on redirects (typically for GET requests)
@@ -152,7 +151,7 @@ def main(start_year, end_year, keyword):
             df = pd.concat([df, df_data], ignore_index=True)
             df['state'] = state_names_dict[state]
             whole_df = pd.concat([whole_df, df], ignore_index=True)
-        logging.info(f'{count}/{len(state_codes)-1} completed')
+        logging.info(f'{count}/{len(state_codes) - 1} completed')
     whole_df = whole_df.rename(columns={'value': 'city'})
     whole_df.to_excel(f'result_{start_year}_to_{end_year}.xlsx')
     logging.info('Data successfully saved to Excel file')
@@ -162,6 +161,3 @@ if __name__ == "__main__":
     end_date = int(input('Please select an end date (year): '))
     keyword = str(input('Please provide a keyword: '))
     main(start_date, end_date, keyword)
-
-
-#### country=us&date-end=1902&date-start=1896&keyword=th*&entity-types=page%2Cobituary%2Cmarriage%2Cbirth%2Censlavement&product=1&sort=score-desc&start=*&count=10&facet-year=1000&facet-country=200&facet-region=300&facet-county=260&facet-city=150&facet-entity=6&facet-publication=5&include-publication-metadata=true

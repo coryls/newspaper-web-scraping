@@ -111,10 +111,9 @@ def get_data_with_backoff(url, params, max_retries=MAX_RETRIES):
         response = session.get(url, headers=headers, params=params)
         if response.status_code == 200:
             success_counts += 1
-            print('Success Count: ', success_counts)
+            time.sleep(0.5)
             return response.json()
         elif response.status_code == 429:  # Too Many Requests
-            print('------------------- 429 ERROR ------------------------------')
             success_counts = 0
             wait_time = exponential_backoff(retries)
             logging.debug(f'Status code 429: waiting {wait_time} seconds')
@@ -171,7 +170,7 @@ def main(start_year, end_year, keyword):
                 df = pd.concat([df, df_data], ignore_index=True)
             df['state'] = state_names_dict[state]
             whole_df = pd.concat([whole_df, df], ignore_index=True)
-        logging.info(f'{count}/{len(state_codes)-1} completed')
+        logging.info(f'{count}/{len(state_codes) - 1} completed')
     whole_df = whole_df.rename(columns={'value': 'city'})
     whole_df.to_excel(f'result_{start_year}_to_{end_year}.xlsx')
     logging.info('Data successfully saved to Excel file')
