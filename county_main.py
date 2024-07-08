@@ -102,24 +102,32 @@ headers = {
 def exponential_backoff(retries):
     return min(60, (2 ** retries) + random.uniform(0, 1))
 
+success_counts = 0
+
 def get_data_with_backoff(url, params, max_retries=MAX_RETRIES):
+    global success_counts
     retries = 0
     while retries < max_retries:
         response = session.get(url, headers=headers, params=params)
         if response.status_code == 200:
+            success_counts += 1
+            print('Success Count: ', success_counts)
             return response.json()
         elif response.status_code == 429:  # Too Many Requests
+            print('------------------- 429 ERROR ------------------------------')
+            success_counts = 0
             wait_time = exponential_backoff(retries)
             logging.debug(f'Status code 429: waiting {wait_time} seconds')
             time.sleep(wait_time)
             retries += 1
         else:
+            success_counts = 0
             logging.debug(response.status_code)
             retries += 1
             time.sleep(TIMEOUT_PERIOD)
     raise Exception("Max retries exceeded")
 
-def get_cities(start_date, end_date, keyword, state):
+def get_counties(start_date, end_date, keyword, state):
     url = 'https://www.newspapers.com/api/search/query'
     params = {
         'product': 1,
@@ -139,17 +147,28 @@ def get_cities(start_date, end_date, keyword, state):
         'facet-publication': 5,
         'include-publication-metadata': 'true'
     }
-    return get_data_with_backoff(url, params)
+    return get_data_with_backoff(url, params), url, params
+
+def get_city(url, params, county):
+    params = {
+        **params,
+        'county': county
+    }
+    return get_data_with_backoff(url, params).get('facets', {}).get('city', [])
 
 def main(start_year, end_year, keyword):
     whole_df = pd.DataFrame()
     for count, state in enumerate(state_codes):
-        data = get_cities(start_year, end_year, keyword, state)
+        data, url, params = get_counties(start_year, end_year, keyword, state)
         if data.get('recordCount', 0) > 0:
-            city_data = data.get('facets', {}).get('city', [])
-            df = pd.DataFrame(columns=['state', 'value', 'count'])
-            df_data = pd.DataFrame(city_data)
-            df = pd.concat([df, df_data], ignore_index=True)
+            county_dict = data['facets']['county']
+            counties = [item['value'] for item in county_dict]
+            df = pd.DataFrame(columns=['state', 'county', 'value', 'count'])
+            for county in counties:
+                city_data = get_city(url, params, county)
+                df_data = pd.DataFrame(city_data)
+                df_data['county'] = county
+                df = pd.concat([df, df_data], ignore_index=True)
             df['state'] = state_names_dict[state]
             whole_df = pd.concat([whole_df, df], ignore_index=True)
         logging.info(f'{count}/{len(state_codes)-1} completed')
@@ -162,6 +181,3 @@ if __name__ == "__main__":
     end_date = int(input('Please select an end date (year): '))
     keyword = str(input('Please provide a keyword: '))
     main(start_date, end_date, keyword)
-
-
-#### country=us&date-end=1902&date-start=1896&keyword=th*&entity-types=page%2Cobituary%2Cmarriage%2Cbirth%2Censlavement&product=1&sort=score-desc&start=*&count=10&facet-year=1000&facet-country=200&facet-region=300&facet-county=260&facet-city=150&facet-entity=6&facet-publication=5&include-publication-metadata=true

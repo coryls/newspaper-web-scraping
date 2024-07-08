@@ -1,0 +1,3400 @@
+{
+  "recordCount": 14856954,
+  "queryTime": 7078,
+  "partialResults": false,
+  "nextStart": "AoIIQMAAAC9pbWFnZTo5OTk5ODcwMDc=",
+  "records": [
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987041,
+        "pageNumber": "4",
+        "date": "1902-12-27",
+        "viewerUrl": "https://www.newspapers.com/image/999987041?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987038,
+        "pageNumber": "3",
+        "date": "1902-12-27",
+        "viewerUrl": "https://www.newspapers.com/image/999987038?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987035,
+        "pageNumber": "2",
+        "date": "1902-12-27",
+        "viewerUrl": "https://www.newspapers.com/image/999987035?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987031,
+        "pageNumber": "1",
+        "date": "1902-12-27",
+        "viewerUrl": "https://www.newspapers.com/image/999987031?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987029,
+        "pageNumber": "16",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987029?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987023,
+        "pageNumber": "14",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987023?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987020,
+        "pageNumber": "13",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987020?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987012,
+        "pageNumber": "10",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987012?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987009,
+        "pageNumber": "9",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987009?terms=th*"
+      }
+    },
+    {
+      "type": "page",
+      "publication": {
+        "id": 31251,
+        "canonicalId": 36074,
+        "name": "Hume Border Messenger",
+        "location": "Hume, Missouri"
+      },
+      "page": {
+        "id": 999987007,
+        "pageNumber": "8",
+        "date": "1902-12-20",
+        "viewerUrl": "https://www.newspapers.com/image/999987007?terms=th*"
+      }
+    }
+  ],
+  "facets": {
+    "city": [
+      {
+        "count": 354694,
+        "value": "buffalo"
+      },
+      {
+        "count": 200415,
+        "value": "washington"
+      },
+      {
+        "count": 194548,
+        "value": "omaha"
+      },
+      {
+        "count": 170631,
+        "value": "new york"
+      },
+      {
+        "count": 158981,
+        "value": "brooklyn"
+      },
+      {
+        "count": 147888,
+        "value": "st. louis"
+      },
+      {
+        "count": 142940,
+        "value": "minneapolis"
+      },
+      {
+        "count": 142081,
+        "value": "san francisco"
+      },
+      {
+        "count": 140595,
+        "value": "chicago"
+      },
+      {
+        "count": 126720,
+        "value": "kansas city"
+      },
+      {
+        "count": 123986,
+        "value": "philadelphia"
+      },
+      {
+        "count": 123694,
+        "value": "boston"
+      },
+      {
+        "count": 119554,
+        "value": "wilkes-barre"
+      },
+      {
+        "count": 117103,
+        "value": "lincoln"
+      },
+      {
+        "count": 102491,
+        "value": "topeka"
+      },
+      {
+        "count": 102069,
+        "value": "pittsburgh"
+      },
+      {
+        "count": 99648,
+        "value": "los angeles"
+      },
+      {
+        "count": 92292,
+        "value": "marion"
+      },
+      {
+        "count": 91407,
+        "value": "wilmington"
+      },
+      {
+        "count": 90931,
+        "value": "salt lake city"
+      },
+      {
+        "count": 79496,
+        "value": "honolulu"
+      },
+      {
+        "count": 75039,
+        "value": "richmond"
+      },
+      {
+        "count": 74439,
+        "value": "fort wayne"
+      },
+      {
+        "count": 73594,
+        "value": "wichita"
+      },
+      {
+        "count": 72947,
+        "value": "new orleans"
+      },
+      {
+        "count": 72439,
+        "value": "st. joseph"
+      },
+      {
+        "count": 69960,
+        "value": "scranton"
+      },
+      {
+        "count": 67111,
+        "value": "atlanta"
+      },
+      {
+        "count": 67049,
+        "value": "lancaster"
+      },
+      {
+        "count": 66613,
+        "value": "york"
+      },
+      {
+        "count": 64941,
+        "value": "freeport"
+      },
+      {
+        "count": 63493,
+        "value": "butte"
+      },
+      {
+        "count": 62264,
+        "value": "lexington"
+      },
+      {
+        "count": 61256,
+        "value": "columbus"
+      },
+      {
+        "count": 59618,
+        "value": "indianapolis"
+      },
+      {
+        "count": 59611,
+        "value": "nashville"
+      },
+      {
+        "count": 57588,
+        "value": "norfolk"
+      },
+      {
+        "count": 56952,
+        "value": "cincinnati"
+      },
+      {
+        "count": 56691,
+        "value": "decatur"
+      },
+      {
+        "count": 56343,
+        "value": "fall river"
+      },
+      {
+        "count": 55488,
+        "value": "oakland"
+      },
+      {
+        "count": 55373,
+        "value": "helena"
+      },
+      {
+        "count": 54649,
+        "value": "lafayette"
+      },
+      {
+        "count": 54366,
+        "value": "muncie"
+      },
+      {
+        "count": 53172,
+        "value": "salem"
+      },
+      {
+        "count": 51602,
+        "value": "meriden"
+      },
+      {
+        "count": 49199,
+        "value": "guthrie"
+      },
+      {
+        "count": 48775,
+        "value": "raleigh"
+      },
+      {
+        "count": 48705,
+        "value": "davenport"
+      },
+      {
+        "count": 48640,
+        "value": "leavenworth"
+      },
+      {
+        "count": 48477,
+        "value": "muscatine"
+      },
+      {
+        "count": 47695,
+        "value": "evansville"
+      },
+      {
+        "count": 47537,
+        "value": "knoxville"
+      },
+      {
+        "count": 47212,
+        "value": "baltimore"
+      },
+      {
+        "count": 46848,
+        "value": "lewiston"
+      },
+      {
+        "count": 46299,
+        "value": "stockton"
+      },
+      {
+        "count": 46215,
+        "value": "springfield"
+      },
+      {
+        "count": 46207,
+        "value": "birmingham"
+      },
+      {
+        "count": 46019,
+        "value": "burlington"
+      },
+      {
+        "count": 45035,
+        "value": "champaign"
+      },
+      {
+        "count": 44069,
+        "value": "portland"
+      },
+      {
+        "count": 42470,
+        "value": "marysville"
+      },
+      {
+        "count": 41673,
+        "value": "rochester"
+      },
+      {
+        "count": 41527,
+        "value": "hartford"
+      },
+      {
+        "count": 41300,
+        "value": "logansport"
+      },
+      {
+        "count": 40957,
+        "value": "san bernardino"
+      },
+      {
+        "count": 39573,
+        "value": "louisville"
+      },
+      {
+        "count": 38461,
+        "value": "spokane"
+      },
+      {
+        "count": 38289,
+        "value": "cleveland"
+      },
+      {
+        "count": 37748,
+        "value": "anaconda"
+      },
+      {
+        "count": 37552,
+        "value": "detroit"
+      },
+      {
+        "count": 37370,
+        "value": "lawrence"
+      },
+      {
+        "count": 36823,
+        "value": "harrisburg"
+      },
+      {
+        "count": 36644,
+        "value": "grand island"
+      },
+      {
+        "count": 36572,
+        "value": "asheville"
+      },
+      {
+        "count": 36346,
+        "value": "el paso"
+      },
+      {
+        "count": 36282,
+        "value": "madison"
+      },
+      {
+        "count": 36145,
+        "value": "dayton"
+      },
+      {
+        "count": 36128,
+        "value": "shreveport"
+      },
+      {
+        "count": 36116,
+        "value": "hutchinson"
+      },
+      {
+        "count": 36064,
+        "value": "sacramento"
+      },
+      {
+        "count": 35899,
+        "value": "savannah"
+      },
+      {
+        "count": 35358,
+        "value": "austin"
+      },
+      {
+        "count": 34297,
+        "value": "memphis"
+      },
+      {
+        "count": 34008,
+        "value": "abilene"
+      },
+      {
+        "count": 33564,
+        "value": "little rock"
+      },
+      {
+        "count": 33242,
+        "value": "bryan"
+      },
+      {
+        "count": 32963,
+        "value": "owensboro"
+      },
+      {
+        "count": 32757,
+        "value": "chattanooga"
+      },
+      {
+        "count": 32539,
+        "value": "saint paul"
+      },
+      {
+        "count": 32402,
+        "value": "camden"
+      },
+      {
+        "count": 32149,
+        "value": "joplin"
+      },
+      {
+        "count": 32026,
+        "value": "seattle"
+      },
+      {
+        "count": 31425,
+        "value": "columbia"
+      },
+      {
+        "count": 31246,
+        "value": "oklahoma city"
+      },
+      {
+        "count": 31204,
+        "value": "great falls"
+      },
+      {
+        "count": 30918,
+        "value": "bloomington"
+      },
+      {
+        "count": 30614,
+        "value": "arkansas city"
+      },
+      {
+        "count": 30593,
+        "value": "lebanon"
+      },
+      {
+        "count": 30546,
+        "value": "phoenix"
+      },
+      {
+        "count": 30419,
+        "value": "iola"
+      },
+      {
+        "count": 30408,
+        "value": "piqua"
+      },
+      {
+        "count": 30363,
+        "value": "beatrice"
+      },
+      {
+        "count": 30363,
+        "value": "pottsville"
+      },
+      {
+        "count": 30303,
+        "value": "lansing"
+      },
+      {
+        "count": 30225,
+        "value": "emporia"
+      },
+      {
+        "count": 30175,
+        "value": "parsons"
+      },
+      {
+        "count": 30057,
+        "value": "augusta"
+      },
+      {
+        "count": 29985,
+        "value": "newton"
+      },
+      {
+        "count": 29651,
+        "value": "salina"
+      },
+      {
+        "count": 29177,
+        "value": "greenville"
+      },
+      {
+        "count": 28942,
+        "value": "charlotte"
+      },
+      {
+        "count": 28902,
+        "value": "waterloo"
+      },
+      {
+        "count": 28805,
+        "value": "wellington"
+      },
+      {
+        "count": 28575,
+        "value": "ottawa"
+      },
+      {
+        "count": 28321,
+        "value": "tacoma"
+      },
+      {
+        "count": 28047,
+        "value": "chanute"
+      },
+      {
+        "count": 27876,
+        "value": "akron"
+      },
+      {
+        "count": 27728,
+        "value": "fort scott"
+      },
+      {
+        "count": 27703,
+        "value": "fremont"
+      },
+      {
+        "count": 27573,
+        "value": "sioux city"
+      },
+      {
+        "count": 27143,
+        "value": "santa cruz"
+      },
+      {
+        "count": 27135,
+        "value": "marshall"
+      },
+      {
+        "count": 27105,
+        "value": "pittsburg"
+      },
+      {
+        "count": 26864,
+        "value": "houston"
+      },
+      {
+        "count": 26448,
+        "value": "lima"
+      },
+      {
+        "count": 26315,
+        "value": "montgomery"
+      },
+      {
+        "count": 26238,
+        "value": "allentown"
+      },
+      {
+        "count": 26185,
+        "value": "des moines"
+      },
+      {
+        "count": 26109,
+        "value": "jackson"
+      },
+      {
+        "count": 25881,
+        "value": "kearney"
+      },
+      {
+        "count": 25187,
+        "value": "cedar rapids"
+      },
+      {
+        "count": 24736,
+        "value": "atchison"
+      },
+      {
+        "count": 24650,
+        "value": "clinton"
+      },
+      {
+        "count": 24392,
+        "value": "chambersburg"
+      },
+      {
+        "count": 24360,
+        "value": "el dorado"
+      },
+      {
+        "count": 24331,
+        "value": "altoona"
+      },
+      {
+        "count": 24265,
+        "value": "jefferson city"
+      },
+      {
+        "count": 24258,
+        "value": "santa barbara"
+      },
+      {
+        "count": 23899,
+        "value": "roanoke"
+      },
+      {
+        "count": 23750,
+        "value": "macon"
+      },
+      {
+        "count": 23592,
+        "value": "fulton"
+      },
+      {
+        "count": 23363,
+        "value": "winfield"
+      },
+      {
+        "count": 23182,
+        "value": "alexandria"
+      },
+      {
+        "count": 23176,
+        "value": "red bluff"
+      },
+      {
+        "count": 23008,
+        "value": "eau claire"
+      },
+      {
+        "count": 22947,
+        "value": "ardmore"
+      },
+      {
+        "count": 22757,
+        "value": "redding"
+      },
+      {
+        "count": 22741,
+        "value": "sedalia"
+      },
+      {
+        "count": 22641,
+        "value": "benton harbor"
+      }
+    ],
+    "county": [
+      {
+        "count": 369529,
+        "value": "erie"
+      },
+      {
+        "count": 247004,
+        "value": "douglas"
+      },
+      {
+        "count": 181293,
+        "value": "jefferson"
+      },
+      {
+        "count": 179623,
+        "value": "lancaster"
+      },
+      {
+        "count": 170631,
+        "value": "new york"
+      },
+      {
+        "count": 165324,
+        "value": "marion"
+      },
+      {
+        "count": 158740,
+        "value": "allen"
+      },
+      {
+        "count": 158733,
+        "value": "washington"
+      },
+      {
+        "count": 158636,
+        "value": "jackson"
+      },
+      {
+        "count": 149987,
+        "value": "montgomery"
+      },
+      {
+        "count": 148895,
+        "value": "luzerne"
+      },
+      {
+        "count": 147505,
+        "value": "st. louis"
+      },
+      {
+        "count": 145444,
+        "value": "cook"
+      },
+      {
+        "count": 142975,
+        "value": "kings"
+      },
+      {
+        "count": 142081,
+        "value": "san francisco"
+      },
+      {
+        "count": 133024,
+        "value": "hennepin"
+      },
+      {
+        "count": 123986,
+        "value": "philadelphia"
+      },
+      {
+        "count": 123694,
+        "value": "suffolk"
+      },
+      {
+        "count": 121048,
+        "value": "franklin"
+      },
+      {
+        "count": 112407,
+        "value": "hamilton"
+      },
+      {
+        "count": 109639,
+        "value": "los angeles"
+      },
+      {
+        "count": 108191,
+        "value": "grant"
+      },
+      {
+        "count": 104430,
+        "value": "shawnee"
+      },
+      {
+        "count": 103422,
+        "value": "allegheny"
+      },
+      {
+        "count": 99601,
+        "value": "crawford"
+      },
+      {
+        "count": 93303,
+        "value": "wayne"
+      },
+      {
+        "count": 91599,
+        "value": "salt lake"
+      },
+      {
+        "count": 91003,
+        "value": "york"
+      },
+      {
+        "count": 90587,
+        "value": "new haven"
+      },
+      {
+        "count": 88822,
+        "value": "madison"
+      },
+      {
+        "count": 84832,
+        "value": "cass"
+      },
+      {
+        "count": 83492,
+        "value": "cumberland"
+      },
+      {
+        "count": 83313,
+        "value": "lackawanna"
+      },
+      {
+        "count": 80866,
+        "value": "fulton"
+      },
+      {
+        "count": 79723,
+        "value": "alameda"
+      },
+      {
+        "count": 79496,
+        "value": "honolulu"
+      },
+      {
+        "count": 78661,
+        "value": "knox"
+      },
+      {
+        "count": 77619,
+        "value": "sedgwick"
+      },
+      {
+        "count": 76478,
+        "value": "orleans"
+      },
+      {
+        "count": 74421,
+        "value": "saline"
+      },
+      {
+        "count": 72463,
+        "value": "buchanan"
+      },
+      {
+        "count": 70135,
+        "value": "stephenson"
+      },
+      {
+        "count": 67485,
+        "value": "butler"
+      },
+      {
+        "count": 65529,
+        "value": "macon"
+      },
+      {
+        "count": 65133,
+        "value": "shelby"
+      },
+      {
+        "count": 64849,
+        "value": "lawrence"
+      },
+      {
+        "count": 64793,
+        "value": "brown"
+      },
+      {
+        "count": 64161,
+        "value": "johnson"
+      },
+      {
+        "count": 62890,
+        "value": "dodge"
+      },
+      {
+        "count": 62249,
+        "value": "logan"
+      },
+      {
+        "count": 61733,
+        "value": "warren"
+      },
+      {
+        "count": 61424,
+        "value": "linn"
+      },
+      {
+        "count": 61364,
+        "value": "silver bow"
+      },
+      {
+        "count": 60409,
+        "value": "leavenworth"
+      },
+      {
+        "count": 60235,
+        "value": "marshall"
+      },
+      {
+        "count": 60109,
+        "value": "cherokee"
+      },
+      {
+        "count": 58779,
+        "value": "davidson"
+      },
+      {
+        "count": 58057,
+        "value": "jasper"
+      },
+      {
+        "count": 58039,
+        "value": "cowley"
+      },
+      {
+        "count": 57823,
+        "value": "delaware"
+      },
+      {
+        "count": 56463,
+        "value": "new castle"
+      },
+      {
+        "count": 56364,
+        "value": "lewis and clark"
+      },
+      {
+        "count": 54590,
+        "value": "lincoln"
+      },
+      {
+        "count": 54323,
+        "value": "bristol"
+      },
+      {
+        "count": 54020,
+        "value": "fayette"
+      },
+      {
+        "count": 53074,
+        "value": "san bernardino"
+      },
+      {
+        "count": 53055,
+        "value": "sumner"
+      },
+      {
+        "count": 52588,
+        "value": "champaign"
+      },
+      {
+        "count": 52432,
+        "value": "dickinson"
+      },
+      {
+        "count": 51933,
+        "value": "scott"
+      },
+      {
+        "count": 51406,
+        "value": "labette"
+      },
+      {
+        "count": 50012,
+        "value": "tippecanoe"
+      },
+      {
+        "count": 49664,
+        "value": "monroe"
+      },
+      {
+        "count": 49203,
+        "value": "wake"
+      },
+      {
+        "count": 49129,
+        "value": "greene"
+      },
+      {
+        "count": 49073,
+        "value": "gage"
+      },
+      {
+        "count": 48660,
+        "value": "adams"
+      },
+      {
+        "count": 48477,
+        "value": "muscatine"
+      },
+      {
+        "count": 47899,
+        "value": "miami"
+      },
+      {
+        "count": 47695,
+        "value": "vanderburgh"
+      },
+      {
+        "count": 47138,
+        "value": "reno"
+      },
+      {
+        "count": 46741,
+        "value": "baltimore"
+      },
+      {
+        "count": 44109,
+        "value": "berrien"
+      },
+      {
+        "count": 43568,
+        "value": "nemaha"
+      },
+      {
+        "count": 43496,
+        "value": "androscoggin"
+      },
+      {
+        "count": 42191,
+        "value": "monmouth"
+      },
+      {
+        "count": 41997,
+        "value": "caddo"
+      },
+      {
+        "count": 41762,
+        "value": "passaic"
+      },
+      {
+        "count": 40815,
+        "value": "saint clair"
+      },
+      {
+        "count": 40659,
+        "value": "lyon"
+      },
+      {
+        "count": 40238,
+        "value": "neosho"
+      },
+      {
+        "count": 40137,
+        "value": "schuylkill"
+      },
+      {
+        "count": 39526,
+        "value": "hall"
+      },
+      {
+        "count": 39439,
+        "value": "dauphin"
+      },
+      {
+        "count": 39330,
+        "value": "atchison"
+      },
+      {
+        "count": 38755,
+        "value": "sacramento"
+      },
+      {
+        "count": 38670,
+        "value": "buffalo"
+      },
+      {
+        "count": 38461,
+        "value": "spokane"
+      },
+      {
+        "count": 37748,
+        "value": "deer lodge"
+      },
+      {
+        "count": 37311,
+        "value": "polk"
+      },
+      {
+        "count": 37161,
+        "value": "pottawatomie"
+      },
+      {
+        "count": 37124,
+        "value": "pierce"
+      },
+      {
+        "count": 37090,
+        "value": "custer"
+      },
+      {
+        "count": 36998,
+        "value": "cuyahoga"
+      },
+      {
+        "count": 36585,
+        "value": "cascade"
+      },
+      {
+        "count": 36572,
+        "value": "buncombe"
+      },
+      {
+        "count": 35732,
+        "value": "bourbon"
+      },
+      {
+        "count": 35697,
+        "value": "mcpherson"
+      },
+      {
+        "count": 35268,
+        "value": "osage"
+      },
+      {
+        "count": 34966,
+        "value": "westchester"
+      },
+      {
+        "count": 34762,
+        "value": "el paso"
+      },
+      {
+        "count": 34675,
+        "value": "rock island"
+      },
+      {
+        "count": 34521,
+        "value": "oklahoma"
+      },
+      {
+        "count": 34465,
+        "value": "ramsey"
+      },
+      {
+        "count": 34344,
+        "value": "summit"
+      },
+      {
+        "count": 34093,
+        "value": "hartford"
+      },
+      {
+        "count": 33993,
+        "value": "boone"
+      },
+      {
+        "count": 33980,
+        "value": "pulaski"
+      },
+      {
+        "count": 33853,
+        "value": "mclean"
+      },
+      {
+        "count": 33576,
+        "value": "otoe"
+      },
+      {
+        "count": 33536,
+        "value": "barton"
+      },
+      {
+        "count": 33298,
+        "value": "harrison"
+      },
+      {
+        "count": 33260,
+        "value": "san joaquin"
+      },
+      {
+        "count": 32963,
+        "value": "daviess"
+      },
+      {
+        "count": 32113,
+        "value": "winnebago"
+      },
+      {
+        "count": 32026,
+        "value": "king"
+      },
+      {
+        "count": 31722,
+        "value": "new hanover"
+      },
+      {
+        "count": 31711,
+        "value": "maricopa"
+      },
+      {
+        "count": 31340,
+        "value": "harvey"
+      },
+      {
+        "count": 30846,
+        "value": "chatham"
+      },
+      {
+        "count": 30411,
+        "value": "blair"
+      },
+      {
+        "count": 30227,
+        "value": "woodbury"
+      },
+      {
+        "count": 29268,
+        "value": "lafayette"
+      },
+      {
+        "count": 28942,
+        "value": "mecklenburg"
+      },
+      {
+        "count": 28751,
+        "value": "camden"
+      },
+      {
+        "count": 28180,
+        "value": "chittenden"
+      },
+      {
+        "count": 28001,
+        "value": "richland"
+      },
+      {
+        "count": 27851,
+        "value": "berkshire"
+      },
+      {
+        "count": 27705,
+        "value": "travis"
+      },
+      {
+        "count": 27636,
+        "value": "clay"
+      },
+      {
+        "count": 27532,
+        "value": "santa cruz"
+      },
+      {
+        "count": 27364,
+        "value": "wyandotte"
+      },
+      {
+        "count": 26860,
+        "value": "columbia"
+      },
+      {
+        "count": 26833,
+        "value": "brazos"
+      },
+      {
+        "count": 26791,
+        "value": "henry"
+      },
+      {
+        "count": 26530,
+        "value": "indiana"
+      },
+      {
+        "count": 26339,
+        "value": "tulare"
+      },
+      {
+        "count": 26251,
+        "value": "fresno"
+      },
+      {
+        "count": 26238,
+        "value": "lehigh"
+      },
+      {
+        "count": 25735,
+        "value": "pawnee"
+      },
+      {
+        "count": 25619,
+        "value": "harris"
+      },
+      {
+        "count": 25547,
+        "value": "santa barbara"
+      },
+      {
+        "count": 25338,
+        "value": "kennebec"
+      },
+      {
+        "count": 25198,
+        "value": "callaway"
+      },
+      {
+        "count": 25176,
+        "value": "cloud"
+      },
+      {
+        "count": 25127,
+        "value": "cole"
+      },
+      {
+        "count": 24952,
+        "value": "holt"
+      },
+      {
+        "count": 24915,
+        "value": "riley"
+      },
+      {
+        "count": 24810,
+        "value": "ingham"
+      },
+      {
+        "count": 24581,
+        "value": "brooklyn"
+      },
+      {
+        "count": 24564,
+        "value": "racine"
+      },
+      {
+        "count": 24512,
+        "value": "essex"
+      },
+      {
+        "count": 24482,
+        "value": "orange"
+      },
+      {
+        "count": 24079,
+        "value": "coffey"
+      },
+      {
+        "count": 23879,
+        "value": "carter"
+      },
+      {
+        "count": 23818,
+        "value": "yuba"
+      },
+      {
+        "count": 23216,
+        "value": "tehama"
+      },
+      {
+        "count": 23213,
+        "value": "ottawa"
+      },
+      {
+        "count": 23008,
+        "value": "eau claire"
+      },
+      {
+        "count": 22882,
+        "value": "anderson"
+      },
+      {
+        "count": 22807,
+        "value": "kay"
+      },
+      {
+        "count": 22757,
+        "value": "shasta"
+      },
+      {
+        "count": 22745,
+        "value": "pettis"
+      },
+      {
+        "count": 22650,
+        "value": "washoe"
+      },
+      {
+        "count": 22626,
+        "value": "pottawattamie"
+      },
+      {
+        "count": 22495,
+        "value": "somerset"
+      },
+      {
+        "count": 22483,
+        "value": "missoula"
+      },
+      {
+        "count": 21973,
+        "value": "lebanon"
+      },
+      {
+        "count": 21864,
+        "value": "wilson"
+      },
+      {
+        "count": 21818,
+        "value": "garfield"
+      },
+      {
+        "count": 21509,
+        "value": "nodaway"
+      },
+      {
+        "count": 21427,
+        "value": "windsor"
+      },
+      {
+        "count": 21350,
+        "value": "ohio"
+      },
+      {
+        "count": 21014,
+        "value": "saunders"
+      },
+      {
+        "count": 20478,
+        "value": "minnehaha"
+      },
+      {
+        "count": 20462,
+        "value": "livingston"
+      },
+      {
+        "count": 20377,
+        "value": "greenwood"
+      },
+      {
+        "count": 20341,
+        "value": "new london"
+      },
+      {
+        "count": 20299,
+        "value": "union"
+      },
+      {
+        "count": 20146,
+        "value": "mason"
+      },
+      {
+        "count": 20139,
+        "value": "black hawk"
+      },
+      {
+        "count": 20057,
+        "value": "chester"
+      },
+      {
+        "count": 20051,
+        "value": "san diego"
+      },
+      {
+        "count": 19944,
+        "value": "muskingum"
+      },
+      {
+        "count": 19941,
+        "value": "bates"
+      },
+      {
+        "count": 19844,
+        "value": "columbiana"
+      },
+      {
+        "count": 19782,
+        "value": "pima"
+      },
+      {
+        "count": 19503,
+        "value": "hampden"
+      },
+      {
+        "count": 19300,
+        "value": "hudson"
+      },
+      {
+        "count": 19279,
+        "value": "pike"
+      },
+      {
+        "count": 19184,
+        "value": "burt"
+      },
+      {
+        "count": 19171,
+        "value": "worcester"
+      },
+      {
+        "count": 19167,
+        "value": "wood"
+      },
+      {
+        "count": 18966,
+        "value": "perry"
+      },
+      {
+        "count": 18890,
+        "value": "hillsborough"
+      },
+      {
+        "count": 18822,
+        "value": "canadian"
+      },
+      {
+        "count": 18816,
+        "value": "rice"
+      },
+      {
+        "count": 18766,
+        "value": "cedar"
+      },
+      {
+        "count": 18732,
+        "value": "northumberland"
+      },
+      {
+        "count": 18671,
+        "value": "lake"
+      },
+      {
+        "count": 18646,
+        "value": "hinds"
+      },
+      {
+        "count": 18632,
+        "value": "republic"
+      },
+      {
+        "count": 18607,
+        "value": "saint joseph"
+      },
+      {
+        "count": 18491,
+        "value": "calhoun"
+      },
+      {
+        "count": 18449,
+        "value": "humboldt"
+      },
+      {
+        "count": 18365,
+        "value": "lane"
+      },
+      {
+        "count": 18279,
+        "value": "ford"
+      },
+      {
+        "count": 18269,
+        "value": "ada"
+      },
+      {
+        "count": 18237,
+        "value": "smith"
+      },
+      {
+        "count": 18223,
+        "value": "richardson"
+      },
+      {
+        "count": 18220,
+        "value": "sauk"
+      },
+      {
+        "count": 17937,
+        "value": "chemung"
+      },
+      {
+        "count": 17822,
+        "value": "dutchess"
+      },
+      {
+        "count": 17751,
+        "value": "muscogee"
+      },
+      {
+        "count": 17706,
+        "value": "lee"
+      },
+      {
+        "count": 17570,
+        "value": "escambia"
+      },
+      {
+        "count": 17557,
+        "value": "nuckolls"
+      },
+      {
+        "count": 17522,
+        "value": "bibb"
+      },
+      {
+        "count": 17387,
+        "value": "christian"
+      },
+      {
+        "count": 17327,
+        "value": "dawson"
+      },
+      {
+        "count": 17275,
+        "value": "kenosha"
+      },
+      {
+        "count": 17249,
+        "value": "morris"
+      },
+      {
+        "count": 17204,
+        "value": "rutland"
+      },
+      {
+        "count": 17108,
+        "value": "freeborn"
+      },
+      {
+        "count": 17086,
+        "value": "platte"
+      },
+      {
+        "count": 17040,
+        "value": "yellowstone"
+      },
+      {
+        "count": 17034,
+        "value": "carroll"
+      },
+      {
+        "count": 16928,
+        "value": "phillips"
+      },
+      {
+        "count": 16765,
+        "value": "mercer"
+      },
+      {
+        "count": 16608,
+        "value": "ross"
+      },
+      {
+        "count": 16602,
+        "value": "mclennan"
+      },
+      {
+        "count": 16412,
+        "value": "furnas"
+      },
+      {
+        "count": 16362,
+        "value": "thayer"
+      },
+      {
+        "count": 16218,
+        "value": "audrain"
+      },
+      {
+        "count": 16160,
+        "value": "harper"
+      },
+      {
+        "count": 15941,
+        "value": "mitchell"
+      },
+      {
+        "count": 15872,
+        "value": "lasalle"
+      },
+      {
+        "count": 15839,
+        "value": "geary"
+      },
+      {
+        "count": 15836,
+        "value": "dekalb"
+      },
+      {
+        "count": 15734,
+        "value": "fillmore"
+      },
+      {
+        "count": 15204,
+        "value": "stanislaus"
+      },
+      {
+        "count": 15092,
+        "value": "sonoma"
+      },
+      {
+        "count": 15077,
+        "value": "kingfisher"
+      },
+      {
+        "count": 14813,
+        "value": "chase"
+      },
+      {
+        "count": 14676,
+        "value": "huntington"
+      },
+      {
+        "count": 14496,
+        "value": "cuming"
+      },
+      {
+        "count": 14368,
+        "value": "dallas"
+      },
+      {
+        "count": 14293,
+        "value": "berks"
+      },
+      {
+        "count": 14229,
+        "value": "winona"
+      },
+      {
+        "count": 14208,
+        "value": "penobscot"
+      }
+    ],
+    "region": [
+      {
+        "count": 1993180,
+        "value": "us-ks"
+      },
+      {
+        "count": 1344061,
+        "value": "us-ne"
+      },
+      {
+        "count": 1035095,
+        "value": "us-pa"
+      },
+      {
+        "count": 967331,
+        "value": "us-mo"
+      },
+      {
+        "count": 944586,
+        "value": "gb-eng"
+      },
+      {
+        "count": 830487,
+        "value": "us-ny"
+      },
+      {
+        "count": 824147,
+        "value": "us-ca"
+      },
+      {
+        "count": 679321,
+        "value": "us-il"
+      },
+      {
+        "count": 620243,
+        "value": "us-in"
+      },
+      {
+        "count": 586753,
+        "value": "au-nsw"
+      },
+      {
+        "count": 485837,
+        "value": "us-oh"
+      },
+      {
+        "count": 380796,
+        "value": "us-ok"
+      },
+      {
+        "count": 353450,
+        "value": "us-mt"
+      },
+      {
+        "count": 353189,
+        "value": "us-wi"
+      },
+      {
+        "count": 322946,
+        "value": "us-ia"
+      },
+      {
+        "count": 300995,
+        "value": "us-nc"
+      },
+      {
+        "count": 268785,
+        "value": "us-ma"
+      },
+      {
+        "count": 267394,
+        "value": "us-mn"
+      },
+      {
+        "count": 218596,
+        "value": "us-al"
+      },
+      {
+        "count": 214893,
+        "value": "us-ky"
+      },
+      {
+        "count": 213056,
+        "value": "au-qld"
+      },
+      {
+        "count": 208520,
+        "value": "us-nj"
+      },
+      {
+        "count": 205761,
+        "value": "us-tn"
+      },
+      {
+        "count": 205734,
+        "value": "us-tx"
+      },
+      {
+        "count": 190748,
+        "value": "ca-on"
+      },
+      {
+        "count": 189214,
+        "value": "us-va"
+      },
+      {
+        "count": 189119,
+        "value": "us-dc"
+      },
+      {
+        "count": 184364,
+        "value": "us-mi"
+      },
+      {
+        "count": 180955,
+        "value": "us-vt"
+      },
+      {
+        "count": 175894,
+        "value": "us-la"
+      },
+      {
+        "count": 162684,
+        "value": "us-me"
+      },
+      {
+        "count": 153047,
+        "value": "us-ct"
+      },
+      {
+        "count": 146155,
+        "value": "us-ga"
+      },
+      {
+        "count": 142843,
+        "value": "us-ut"
+      },
+      {
+        "count": 133771,
+        "value": "us-wa"
+      },
+      {
+        "count": 129390,
+        "value": "au-sa"
+      },
+      {
+        "count": 116426,
+        "value": "us-sd"
+      },
+      {
+        "count": 101177,
+        "value": "gb-sct"
+      },
+      {
+        "count": 98016,
+        "value": "us-ms"
+      },
+      {
+        "count": 95232,
+        "value": "us-or"
+      },
+      {
+        "count": 93531,
+        "value": "ca-bc"
+      },
+      {
+        "count": 85507,
+        "value": "us-hi"
+      },
+      {
+        "count": 84372,
+        "value": "us-md"
+      },
+      {
+        "count": 82264,
+        "value": "us-az"
+      },
+      {
+        "count": 78338,
+        "value": "gb-wls"
+      },
+      {
+        "count": 72053,
+        "value": "us-ar"
+      },
+      {
+        "count": 71220,
+        "value": "us-sc"
+      },
+      {
+        "count": 58682,
+        "value": "us-de"
+      },
+      {
+        "count": 58093,
+        "value": "us-nv"
+      },
+      {
+        "count": 50896,
+        "value": "ca-qc"
+      },
+      {
+        "count": 50504,
+        "value": "us-fl"
+      },
+      {
+        "count": 48616,
+        "value": "us-id"
+      },
+      {
+        "count": 39061,
+        "value": "us-co"
+      },
+      {
+        "count": 38821,
+        "value": "us-wv"
+      },
+      {
+        "count": 38817,
+        "value": "us-nd"
+      },
+      {
+        "count": 38395,
+        "value": "us-nm"
+      },
+      {
+        "count": 32660,
+        "value": "ca-ns"
+      },
+      {
+        "count": 29606,
+        "value": "ca-mb"
+      },
+      {
+        "count": 25288,
+        "value": "ca-ab"
+      },
+      {
+        "count": 23535,
+        "value": "au-vic"
+      },
+      {
+        "count": 13790,
+        "value": "us-pr"
+      },
+      {
+        "count": 12954,
+        "value": "gb-nir"
+      },
+      {
+        "count": 10359,
+        "value": "us-nh"
+      },
+      {
+        "count": 8416,
+        "value": "us-ri"
+      },
+      {
+        "count": 6181,
+        "value": "ca-sk"
+      },
+      {
+        "count": 4608,
+        "value": "us-ak"
+      },
+      {
+        "count": 4135,
+        "value": "us-wy"
+      },
+      {
+        "count": 2013,
+        "value": "ca-yt"
+      },
+      {
+        "count": 1448,
+        "value": "au-nt"
+      },
+      {
+        "count": 760,
+        "value": "us-vi"
+      }
+    ],
+    "country": [
+      {
+        "count": 14856954,
+        "value": "us"
+      },
+      {
+        "count": 1137055,
+        "value": "gb"
+      },
+      {
+        "count": 954182,
+        "value": "au"
+      },
+      {
+        "count": 430923,
+        "value": "ca"
+      },
+      {
+        "count": 347967,
+        "value": "nz"
+      },
+      {
+        "count": 12082,
+        "value": "ie"
+      },
+      {
+        "count": 202,
+        "value": "ws"
+      }
+    ],
+    "year": [
+      {
+        "count": 11171803,
+        "value": 2000
+      },
+      {
+        "count": 10982303,
+        "value": 1999
+      },
+      {
+        "count": 10952259,
+        "value": 1998
+      },
+      {
+        "count": 10755835,
+        "value": 1987
+      },
+      {
+        "count": 10711757,
+        "value": 1994
+      },
+      {
+        "count": 10689011,
+        "value": 1997
+      },
+      {
+        "count": 10654011,
+        "value": 1986
+      },
+      {
+        "count": 10653616,
+        "value": 1988
+      },
+      {
+        "count": 10555171,
+        "value": 1989
+      },
+      {
+        "count": 10533249,
+        "value": 1995
+      },
+      {
+        "count": 10491302,
+        "value": 1985
+      },
+      {
+        "count": 10342605,
+        "value": 1990
+      },
+      {
+        "count": 10268105,
+        "value": 1993
+      },
+      {
+        "count": 10264669,
+        "value": 2001
+      },
+      {
+        "count": 10252327,
+        "value": 1996
+      },
+      {
+        "count": 10163039,
+        "value": 1984
+      },
+      {
+        "count": 10136159,
+        "value": 2003
+      },
+      {
+        "count": 10080034,
+        "value": 1992
+      },
+      {
+        "count": 10072508,
+        "value": 2004
+      },
+      {
+        "count": 9928928,
+        "value": 1991
+      },
+      {
+        "count": 9906379,
+        "value": 2002
+      },
+      {
+        "count": 9890034,
+        "value": 2006
+      },
+      {
+        "count": 9885043,
+        "value": 1977
+      },
+      {
+        "count": 9846003,
+        "value": 2005
+      },
+      {
+        "count": 9617457,
+        "value": 1983
+      },
+      {
+        "count": 9594207,
+        "value": 1976
+      },
+      {
+        "count": 9443738,
+        "value": 1981
+      },
+      {
+        "count": 9437667,
+        "value": 1980
+      },
+      {
+        "count": 9330036,
+        "value": 1982
+      },
+      {
+        "count": 9312281,
+        "value": 1979
+      },
+      {
+        "count": 9312274,
+        "value": 2007
+      },
+      {
+        "count": 9213841,
+        "value": 1973
+      },
+      {
+        "count": 9122565,
+        "value": 1974
+      },
+      {
+        "count": 9006725,
+        "value": 1978
+      },
+      {
+        "count": 8979098,
+        "value": 1972
+      },
+      {
+        "count": 8942318,
+        "value": 1975
+      },
+      {
+        "count": 8443558,
+        "value": 1971
+      },
+      {
+        "count": 8377222,
+        "value": 1970
+      },
+      {
+        "count": 8350577,
+        "value": 2008
+      },
+      {
+        "count": 8188301,
+        "value": 1969
+      },
+      {
+        "count": 7968118,
+        "value": 1966
+      },
+      {
+        "count": 7965394,
+        "value": 1968
+      },
+      {
+        "count": 7880948,
+        "value": 1963
+      },
+      {
+        "count": 7878444,
+        "value": 1967
+      },
+      {
+        "count": 7757553,
+        "value": 1962
+      },
+      {
+        "count": 7657913,
+        "value": 1960
+      },
+      {
+        "count": 7653625,
+        "value": 1961
+      },
+      {
+        "count": 7556666,
+        "value": 1965
+      },
+      {
+        "count": 7556348,
+        "value": 1964
+      },
+      {
+        "count": 7387707,
+        "value": 1959
+      },
+      {
+        "count": 7151817,
+        "value": 1958
+      },
+      {
+        "count": 7144815,
+        "value": 1956
+      },
+      {
+        "count": 7102810,
+        "value": 1957
+      },
+      {
+        "count": 7036900,
+        "value": 1955
+      },
+      {
+        "count": 6979077,
+        "value": 2009
+      },
+      {
+        "count": 6691118,
+        "value": 1954
+      },
+      {
+        "count": 6594499,
+        "value": 1953
+      },
+      {
+        "count": 6377585,
+        "value": 1952
+      },
+      {
+        "count": 6293245,
+        "value": 2010
+      },
+      {
+        "count": 6265402,
+        "value": 1950
+      },
+      {
+        "count": 6198320,
+        "value": 1951
+      },
+      {
+        "count": 6000413,
+        "value": 1949
+      },
+      {
+        "count": 5950549,
+        "value": 2011
+      },
+      {
+        "count": 5753671,
+        "value": 2012
+      },
+      {
+        "count": 5721064,
+        "value": 1948
+      },
+      {
+        "count": 5342651,
+        "value": 2013
+      },
+      {
+        "count": 5339395,
+        "value": 2014
+      },
+      {
+        "count": 5255698,
+        "value": 1947
+      },
+      {
+        "count": 5243964,
+        "value": 2015
+      },
+      {
+        "count": 4930995,
+        "value": 1937
+      },
+      {
+        "count": 4921383,
+        "value": 1936
+      },
+      {
+        "count": 4862109,
+        "value": 2016
+      },
+      {
+        "count": 4845216,
+        "value": 1929
+      },
+      {
+        "count": 4837441,
+        "value": 1941
+      },
+      {
+        "count": 4822228,
+        "value": 1946
+      },
+      {
+        "count": 4805890,
+        "value": 1940
+      },
+      {
+        "count": 4780385,
+        "value": 1930
+      },
+      {
+        "count": 4736484,
+        "value": 1939
+      },
+      {
+        "count": 4646668,
+        "value": 1935
+      },
+      {
+        "count": 4636147,
+        "value": 1938
+      },
+      {
+        "count": 4623790,
+        "value": 1928
+      },
+      {
+        "count": 4519047,
+        "value": 1942
+      },
+      {
+        "count": 4507498,
+        "value": 1922
+      },
+      {
+        "count": 4505294,
+        "value": 1931
+      },
+      {
+        "count": 4490882,
+        "value": 1927
+      },
+      {
+        "count": 4443966,
+        "value": 1926
+      },
+      {
+        "count": 4404648,
+        "value": 2017
+      },
+      {
+        "count": 4375337,
+        "value": 1934
+      },
+      {
+        "count": 4344964,
+        "value": 1920
+      },
+      {
+        "count": 4307031,
+        "value": 1925
+      },
+      {
+        "count": 4291705,
+        "value": 1943
+      },
+      {
+        "count": 4263230,
+        "value": 1921
+      },
+      {
+        "count": 4239864,
+        "value": 1945
+      },
+      {
+        "count": 4235485,
+        "value": 1923
+      },
+      {
+        "count": 4215076,
+        "value": 1919
+      },
+      {
+        "count": 4205733,
+        "value": 1924
+      },
+      {
+        "count": 4197508,
+        "value": 1932
+      },
+      {
+        "count": 4147770,
+        "value": 1944
+      },
+      {
+        "count": 4040870,
+        "value": 1933
+      },
+      {
+        "count": 4026512,
+        "value": 2018
+      },
+      {
+        "count": 3992312,
+        "value": 1916
+      },
+      {
+        "count": 3954343,
+        "value": 1915
+      },
+      {
+        "count": 3910064,
+        "value": 1914
+      },
+      {
+        "count": 3857538,
+        "value": 1917
+      },
+      {
+        "count": 3842392,
+        "value": 1913
+      },
+      {
+        "count": 3810991,
+        "value": 1912
+      },
+      {
+        "count": 3772212,
+        "value": 1918
+      },
+      {
+        "count": 3700413,
+        "value": 1911
+      },
+      {
+        "count": 3637205,
+        "value": 1910
+      },
+      {
+        "count": 3475527,
+        "value": 1909
+      },
+      {
+        "count": 3455370,
+        "value": 2019
+      },
+      {
+        "count": 3288202,
+        "value": 1908
+      },
+      {
+        "count": 3239819,
+        "value": 1907
+      },
+      {
+        "count": 3090580,
+        "value": 1906
+      },
+      {
+        "count": 3069989,
+        "value": 2021
+      },
+      {
+        "count": 3032976,
+        "value": 2020
+      },
+      {
+        "count": 2937883,
+        "value": 1905
+      },
+      {
+        "count": 2808547,
+        "value": 1904
+      },
+      {
+        "count": 2805363,
+        "value": 2022
+      },
+      {
+        "count": 2653069,
+        "value": 2023
+      },
+      {
+        "count": 2648170,
+        "value": 1903
+      },
+      {
+        "count": 2477338,
+        "value": 1902
+      },
+      {
+        "count": 2280282,
+        "value": 1901
+      },
+      {
+        "count": 2172758,
+        "value": 1900
+      },
+      {
+        "count": 2101546,
+        "value": 1899
+      },
+      {
+        "count": 2003384,
+        "value": 1898
+      },
+      {
+        "count": 1945880,
+        "value": 1897
+      },
+      {
+        "count": 1875766,
+        "value": 1896
+      },
+      {
+        "count": 1723203,
+        "value": 1895
+      },
+      {
+        "count": 1617563,
+        "value": 1894
+      },
+      {
+        "count": 1517666,
+        "value": 1893
+      },
+      {
+        "count": 1481914,
+        "value": 1892
+      },
+      {
+        "count": 1397794,
+        "value": 1891
+      },
+      {
+        "count": 1313373,
+        "value": 1890
+      },
+      {
+        "count": 1180294,
+        "value": 1889
+      },
+      {
+        "count": 1160395,
+        "value": 1888
+      },
+      {
+        "count": 1085817,
+        "value": 1887
+      },
+      {
+        "count": 1046397,
+        "value": 2024
+      },
+      {
+        "count": 949554,
+        "value": 1886
+      },
+      {
+        "count": 847518,
+        "value": 1885
+      },
+      {
+        "count": 786552,
+        "value": 1884
+      },
+      {
+        "count": 721748,
+        "value": 1883
+      },
+      {
+        "count": 654627,
+        "value": 1882
+      },
+      {
+        "count": 612307,
+        "value": 1881
+      },
+      {
+        "count": 582393,
+        "value": 1880
+      },
+      {
+        "count": 526035,
+        "value": 1879
+      },
+      {
+        "count": 481943,
+        "value": 1878
+      },
+      {
+        "count": 447770,
+        "value": 1877
+      },
+      {
+        "count": 437350,
+        "value": 1876
+      },
+      {
+        "count": 424310,
+        "value": 1875
+      },
+      {
+        "count": 401468,
+        "value": 1874
+      },
+      {
+        "count": 377308,
+        "value": 1873
+      },
+      {
+        "count": 360939,
+        "value": 1872
+      },
+      {
+        "count": 322280,
+        "value": 1871
+      },
+      {
+        "count": 293733,
+        "value": 1870
+      },
+      {
+        "count": 286584,
+        "value": 1869
+      },
+      {
+        "count": 276566,
+        "value": 1868
+      },
+      {
+        "count": 263930,
+        "value": 1866
+      },
+      {
+        "count": 262423,
+        "value": 1867
+      },
+      {
+        "count": 205923,
+        "value": 1865
+      },
+      {
+        "count": 195888,
+        "value": 1864
+      },
+      {
+        "count": 194395,
+        "value": 1861
+      },
+      {
+        "count": 190763,
+        "value": 1860
+      },
+      {
+        "count": 186496,
+        "value": 1859
+      },
+      {
+        "count": 179790,
+        "value": 1862
+      },
+      {
+        "count": 177267,
+        "value": 1863
+      },
+      {
+        "count": 167178,
+        "value": 1858
+      },
+      {
+        "count": 158800,
+        "value": 1857
+      },
+      {
+        "count": 155747,
+        "value": 1856
+      },
+      {
+        "count": 142251,
+        "value": 1855
+      },
+      {
+        "count": 138986,
+        "value": 1854
+      },
+      {
+        "count": 134478,
+        "value": 1853
+      },
+      {
+        "count": 119504,
+        "value": 1852
+      },
+      {
+        "count": 113570,
+        "value": 1851
+      },
+      {
+        "count": 107449,
+        "value": 1850
+      },
+      {
+        "count": 95829,
+        "value": 1849
+      },
+      {
+        "count": 94119,
+        "value": 1848
+      },
+      {
+        "count": 87726,
+        "value": 1847
+      },
+      {
+        "count": 86639,
+        "value": 1846
+      },
+      {
+        "count": 81195,
+        "value": 1845
+      },
+      {
+        "count": 74766,
+        "value": 1844
+      },
+      {
+        "count": 68709,
+        "value": 1843
+      },
+      {
+        "count": 64222,
+        "value": 1841
+      },
+      {
+        "count": 62418,
+        "value": 1840
+      },
+      {
+        "count": 62381,
+        "value": 1842
+      },
+      {
+        "count": 58654,
+        "value": 1839
+      },
+      {
+        "count": 54600,
+        "value": 1838
+      },
+      {
+        "count": 50135,
+        "value": 1837
+      },
+      {
+        "count": 42278,
+        "value": 1836
+      },
+      {
+        "count": 34316,
+        "value": 1835
+      },
+      {
+        "count": 33897,
+        "value": 1833
+      },
+      {
+        "count": 33884,
+        "value": 1834
+      },
+      {
+        "count": 33193,
+        "value": 1831
+      },
+      {
+        "count": 32545,
+        "value": 1830
+      },
+      {
+        "count": 31826,
+        "value": 1832
+      },
+      {
+        "count": 31307,
+        "value": 1829
+      },
+      {
+        "count": 30099,
+        "value": 1828
+      },
+      {
+        "count": 28429,
+        "value": 1827
+      },
+      {
+        "count": 28357,
+        "value": 1826
+      },
+      {
+        "count": 24973,
+        "value": 1825
+      },
+      {
+        "count": 24969,
+        "value": 1824
+      },
+      {
+        "count": 22643,
+        "value": 1823
+      },
+      {
+        "count": 21479,
+        "value": 1822
+      },
+      {
+        "count": 19625,
+        "value": 1821
+      },
+      {
+        "count": 18388,
+        "value": 1820
+      },
+      {
+        "count": 18272,
+        "value": 1819
+      },
+      {
+        "count": 16954,
+        "value": 1818
+      },
+      {
+        "count": 16099,
+        "value": 1813
+      },
+      {
+        "count": 16040,
+        "value": 1812
+      },
+      {
+        "count": 15551,
+        "value": 1814
+      },
+      {
+        "count": 15251,
+        "value": 1816
+      },
+      {
+        "count": 15206,
+        "value": 1810
+      },
+      {
+        "count": 15030,
+        "value": 1815
+      },
+      {
+        "count": 14982,
+        "value": 1811
+      },
+      {
+        "count": 14840,
+        "value": 1817
+      },
+      {
+        "count": 14716,
+        "value": 1808
+      },
+      {
+        "count": 14126,
+        "value": 1809
+      },
+      {
+        "count": 13866,
+        "value": 1806
+      },
+      {
+        "count": 13369,
+        "value": 1807
+      },
+      {
+        "count": 13207,
+        "value": 1803
+      },
+      {
+        "count": 12929,
+        "value": 1804
+      },
+      {
+        "count": 12283,
+        "value": 1805
+      },
+      {
+        "count": 10565,
+        "value": 1802
+      },
+      {
+        "count": 8650,
+        "value": 1801
+      },
+      {
+        "count": 8457,
+        "value": 1800
+      },
+      {
+        "count": 7663,
+        "value": 1799
+      },
+      {
+        "count": 6939,
+        "value": 1796
+      },
+      {
+        "count": 6570,
+        "value": 1797
+      },
+      {
+        "count": 6510,
+        "value": 1795
+      },
+      {
+        "count": 6454,
+        "value": 1798
+      },
+      {
+        "count": 6325,
+        "value": 1794
+      },
+      {
+        "count": 5743,
+        "value": 1789
+      },
+      {
+        "count": 5615,
+        "value": 1788
+      },
+      {
+        "count": 5421,
+        "value": 1787
+      },
+      {
+        "count": 5169,
+        "value": 1793
+      },
+      {
+        "count": 5116,
+        "value": 1790
+      },
+      {
+        "count": 4981,
+        "value": 1792
+      },
+      {
+        "count": 4579,
+        "value": 1791
+      },
+      {
+        "count": 3973,
+        "value": 1786
+      },
+      {
+        "count": 3560,
+        "value": 1785
+      },
+      {
+        "count": 3358,
+        "value": 1775
+      },
+      {
+        "count": 3222,
+        "value": 1784
+      },
+      {
+        "count": 2901,
+        "value": 1783
+      },
+      {
+        "count": 2712,
+        "value": 1782
+      },
+      {
+        "count": 2662,
+        "value": 1776
+      },
+      {
+        "count": 2592,
+        "value": 1773
+      },
+      {
+        "count": 2578,
+        "value": 1774
+      },
+      {
+        "count": 2510,
+        "value": 1777
+      },
+      {
+        "count": 2441,
+        "value": 1768
+      },
+      {
+        "count": 2418,
+        "value": 1772
+      },
+      {
+        "count": 2215,
+        "value": 1769
+      },
+      {
+        "count": 2166,
+        "value": 1781
+      },
+      {
+        "count": 2124,
+        "value": 1767
+      },
+      {
+        "count": 2063,
+        "value": 1770
+      },
+      {
+        "count": 2019,
+        "value": 1771
+      },
+      {
+        "count": 1944,
+        "value": 1778
+      },
+      {
+        "count": 1919,
+        "value": 1779
+      },
+      {
+        "count": 1731,
+        "value": 1766
+      },
+      {
+        "count": 1541,
+        "value": 1780
+      },
+      {
+        "count": 1263,
+        "value": 1764
+      },
+      {
+        "count": 1226,
+        "value": 1745
+      },
+      {
+        "count": 1204,
+        "value": 1755
+      },
+      {
+        "count": 1198,
+        "value": 1751
+      },
+      {
+        "count": 1195,
+        "value": 1752
+      },
+      {
+        "count": 1195,
+        "value": 1756
+      },
+      {
+        "count": 1175,
+        "value": 1763
+      },
+      {
+        "count": 1148,
+        "value": 1746
+      },
+      {
+        "count": 1118,
+        "value": 1750
+      },
+      {
+        "count": 1113,
+        "value": 1765
+      },
+      {
+        "count": 1100,
+        "value": 1761
+      },
+      {
+        "count": 1086,
+        "value": 1762
+      },
+      {
+        "count": 1080,
+        "value": 1753
+      },
+      {
+        "count": 1077,
+        "value": 1748
+      },
+      {
+        "count": 1077,
+        "value": 1754
+      },
+      {
+        "count": 1033,
+        "value": 1747
+      },
+      {
+        "count": 1027,
+        "value": 1749
+      },
+      {
+        "count": 1025,
+        "value": 1757
+      },
+      {
+        "count": 926,
+        "value": 1759
+      },
+      {
+        "count": 911,
+        "value": 1758
+      },
+      {
+        "count": 872,
+        "value": 1760
+      },
+      {
+        "count": 851,
+        "value": 1744
+      },
+      {
+        "count": 846,
+        "value": 1743
+      },
+      {
+        "count": 823,
+        "value": 1738
+      },
+      {
+        "count": 790,
+        "value": 1737
+      },
+      {
+        "count": 766,
+        "value": 1739
+      },
+      {
+        "count": 728,
+        "value": 1741
+      },
+      {
+        "count": 715,
+        "value": 1736
+      },
+      {
+        "count": 655,
+        "value": 1742
+      },
+      {
+        "count": 644,
+        "value": 1740
+      },
+      {
+        "count": 642,
+        "value": 1734
+      },
+      {
+        "count": 587,
+        "value": 1732
+      },
+      {
+        "count": 555,
+        "value": 1735
+      },
+      {
+        "count": 483,
+        "value": 1733
+      },
+      {
+        "count": 393,
+        "value": 1730
+      },
+      {
+        "count": 379,
+        "value": 1731
+      },
+      {
+        "count": 373,
+        "value": 1729
+      },
+      {
+        "count": 184,
+        "value": 1728
+      },
+      {
+        "count": 168,
+        "value": 1722
+      },
+      {
+        "count": 139,
+        "value": 1721
+      },
+      {
+        "count": 138,
+        "value": 1727
+      },
+      {
+        "count": 134,
+        "value": 1720
+      },
+      {
+        "count": 129,
+        "value": 1724
+      },
+      {
+        "count": 126,
+        "value": 1726
+      },
+      {
+        "count": 122,
+        "value": 1723
+      },
+      {
+        "count": 122,
+        "value": 1725
+      },
+      {
+        "count": 4,
+        "value": 1690
+      },
+      {
+        "count": 4,
+        "value": 1719
+      }
+    ],
+    "publication": [
+      {
+        "count": 148349,
+        "value": 31511,
+        "title": "The Buffalo News",
+        "location": "Buffalo, New York"
+      },
+      {
+        "count": 75503,
+        "value": 9077,
+        "title": "The Boston Globe",
+        "location": "Boston, Massachusetts"
+      },
+      {
+        "count": 69365,
+        "value": 4352,
+        "title": "The Philadelphia Inquirer",
+        "location": "Philadelphia, Pennsylvania"
+      },
+      {
+        "count": 58891,
+        "value": 1890,
+        "title": "The Brooklyn Daily Eagle",
+        "location": "Brooklyn, New York"
+      },
+      {
+        "count": 56666,
+        "value": 3377,
+        "title": "Omaha Daily Bee",
+        "location": "Omaha, Nebraska"
+      }
+    ],
+    "entity": [
+      {
+        "count": 14410957,
+        "value": "image"
+      },
+      {
+        "count": 266455,
+        "value": "obituary"
+      },
+      {
+        "count": 129510,
+        "value": "footnote"
+      },
+      {
+        "count": 103483,
+        "value": "marriage"
+      },
+      {
+        "count": 76059,
+        "value": "birth"
+      }
+    ]
+  }
+}
